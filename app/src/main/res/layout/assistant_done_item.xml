@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/done_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:lineSpacingExtra="8dp"
+                android:text="업무시간이 종료되었습니다.
+오늘도 안전하게 업무를 마치셨습니까?"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#e8e8e8" />
+
+        <android.support.percent.PercentFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <RelativeLayout
+                android:id="@+id/assistant_item_confirm"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:layout_widthPercent="50%">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="확인" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="2px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="#e8e8e8" />
+
+            <RelativeLayout
+                android:id="@+id/assistant_item_warning"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:layout_widthPercent="50%">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="경고" />
+            </RelativeLayout>
+        </android.support.percent.PercentFrameLayout>
+    </LinearLayout>
+</LinearLayout>

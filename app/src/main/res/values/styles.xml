@@ -1,0 +1,74 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <!--<item name="textColorPrimary">@color/colorPrimaryText</item>-->
+        <!--<item name="textColorSecondary">@color/colorSecondaryText</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <!--<item name="textColorPrimary">@color/colorPrimaryText</item>-->
+        <!--<item name="textColorSecondary">@color/colorSecondaryText</item>-->
+    </style>
+
+    <style name="box_sky_blue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="AppThemeWhite" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">#f5f5f5</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="toolbarStyle">@style/AppThemeWhite</item>
+        <item name="android:colorButtonNormal">#242e42</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+
+        <item name="titleTextColor">@color/black</item>
+        <!--<item name="textColorSecondary">@color/colorSecondaryText</item>-->
+    </style>
+
+
+    <style name="AppThemeWhite.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">#f5f5f5</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="toolbarStyle">@style/AppThemeWhite</item>
+        <item name="android:colorButtonNormal">#242e42</item>
+        <item name="titleTextColor">@color/black</item>
+        <!--<item name="textColorSecondary">@color/colorSecondaryText</item>-->
+    </style>
+
+    <style name="AppThemeWhite.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppThemeWhite.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

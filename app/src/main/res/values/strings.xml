@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Worker-Assistant</string>
+    <string name="title_device">Dashboard</string>
+    <string name="title_cloud">Chat</string>
+    <string name="title_assistant">Assistant</string>
+    <string name="title_settings">Settings</string>
+    <string name="todayis_work">What are you doing today?</string>
+    <string name="scanner_action_scan">Scan</string>
+    <string name="scanner_action_skip">Skip</string>
+
+    <string name="scanner_action_stop">Stop</string>
+    <string name="texts_for_your_lifr">Hello.</string>
+    <string name="texts_for_your_lifr1">Welcome to Worker-Assistant.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_configure">Connect</string>
+    <string name="title_section_temperature">Temperature</string>
+    <string name="button_title_scan">Connect</string>
+    <string name="text_current_connection">Current Connection:</string>
+    <string name="text_current_connection_name_none">None.</string>
+    <string name="dialog_title_configuration">Connect SensorTag</string>
+    <string name="list_view_bluetooth_device_text">%1$s (%2$s)</string>
+    <string name="section_label_not_connected">Connect to a BLE Device.
+    </string>
+    <string name="temperature_label_ambient">Celsius</string>
+    <string name="light_label_ambient">Light</string>
+    <string name="temperature_label_target">Target</string>
+    <string name="title_na">N/A</string>
+    <string name="light_label_target">Target</string>
+    <string name="title_na1">N/A</string>
+    <string name="humidity_label_temperature">Temperature</string>
+    <string name="humidity_label_relative">Relative</string>
+    <string name="accelerometer_details_z">Z</string>
+    <string name="accelerometer_details_y">Y</string>
+    <string name="accelerometer_details_x">X</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message
+        history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="hint_enter_a_message">Type a message…</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_today_job">TodayJobActivity</string>
+    <string name="title_activity_accident_detail">AccidentDetailActivity</string>
+    <string name="accident_sample_text">지난 23일 아침 8시 50분, 부산 한진중공업 건조 선박에서 철제로 된 H빔 서포트가 넘어지면서 하청업체 유영기업 김 모 노동자(63세)가 사망했다.\n\n
+
+특히 이번 참사 1주일 전 동일 장소에서 동일한 사고가 발생했고 이에 대해 노동자들이 안전 확보와 작업방식 변경을 요구했음에도 관리감독자들이 묵살했다고 금속노조는 밝혔다. \n\n
+
+노조의 현장 확인 결과 전도(넘어짐) 방지를 위한 지지대 설치 등이 이루어지지 않아 작은 충격에도 전도 사고가 날 수 있는 위험한 상태가 방치된 것으로 드러났다.\n\n지난 23일 아침 8시 50분, 부산 한진중공업 건조 선박에서 철제로 된 H빔 서포트가 넘어지면서 하청업체 유영기업 김 모 노동자(63세)가 사망했다.\n\n
+
+특히 이번 참사 1주일 전 동일 장소에서 동일한 사고가 발생했고 이에 대해 노동자들이 안전 확보와 작업방식 변경을 요구했음에도 관리감독자들이 묵살했다고 금속노조는 밝혔다. \n\n
+
+노조의 현장 확인 결과 전도(넘어짐) 방지를 위한 지지대 설치 등이 이루어지지 않아 작은 충격에도 전도 사고가 날 수 있는 위험한 상태가 방치된 것으로 드러났다.\n\n지난 23일 아침 8시 50분, 부산 한진중공업 건조 선박에서 철제로 된 H빔 서포트가 넘어지면서 하청업체 유영기업 김 모 노동자(63세)가 사망했다.\n\n
+
+특히 이번 참사 1주일 전 동일 장소에서 동일한 사고가 발생했고 이에 대해 노동자들이 안전 확보와 작업방식 변경을 요구했음에도 관리감독자들이 묵살했다고 금속노조는 밝혔다. \n\n
+
+노조의 현장 확인 결과 전도(넘어짐) 방지를 위한 지지대 설치 등이 이루어지지 않아 작은 충격에도 전도 사고가 날 수 있는 위험한 상태가 방치된 것으로 드러났다.\n\n지난 23일 아침 8시 50분, 부산 한진중공업 건조 선박에서 철제로 된 H빔 서포트가 넘어지면서 하청업체 유영기업 김 모 노동자(63세)가 사망했다.\n\n
+
+특히 이번 참사 1주일 전 동일 장소에서 동일한 사고가 발생했고 이에 대해 노동자들이 안전 확보와 작업방식 변경을 요구했음에도 관리감독자들이 묵살했다고 금속노조는 밝혔다. \n\n
+
+노조의 현장 확인 결과 전도(넘어짐) 방지를 위한 지지대 설치 등이 이루어지지 않아 작은 충격에도 전도 사고가 날 수 있는 위험한 상태가 방치된 것으로 드러났다.</string>
+    <string name="title_activity_chat_add">ChatAddActivity</string>
+
+</resources>
